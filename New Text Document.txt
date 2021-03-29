@@ -1,0 +1,32 @@
+.sci
+{
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.sci li
+{
+	list-style: none;
+}
+.sci li a
+{
+	display: inline-block;
+	max-width: 50px;
+	transform: scale(0.6);
+}
+
+
+
+
+codeee
+
+<ul class="sci">
+			<li><a href="#"></a><img src="facebook.png"></li>
+			<li><a href="#"></a><img src="insta.png"></li>
+			<li><a href="#"></a><img src="twitter.png"></li>	
+		</ul>
